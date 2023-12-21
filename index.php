@@ -31,7 +31,7 @@
 <body>
     <?php
     // Path file CSV
-    $file_path = "data/rekomen.csv";
+    $file_path = "data/recomender_result.csv";
 
     // Membaca file CSV ke dalam array dengan menggunakan delimiter "|"
     $csv_data = array_map(function ($row) {
